@@ -26,7 +26,7 @@ This is python script is a command line for ResNet18 training. It will output
 
 
 ```
-python3 resnet18_train.py -g 1 -d ./customdatafolder/ -o test_aug -c 2 -n case control -e 100 -s 50 -r 256
+python3 resnet18Train.py -g 1 -d ./customdatafolder/ -o test_aug -c 2 -n case control -e 100 -s 50 -r 256
 
 ```
 
