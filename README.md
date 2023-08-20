@@ -20,13 +20,11 @@ This is python script is a command line for ResNet18 training. It will output
 
 `-o` or `--out` : out name for acc and model
 
-`-c` or `--nc` : class number for making confusion matrix plot
-
 `-n` or `--names`: class name tuple for making confusion matrix plot
 
 
 ```
-python3 resnet18Train.py -g 1 -d ./customdatafolder/ -o test_aug -c 2 -n case control -e 100 -s 50 -r 256
+python3 resnet18Train.py -g 1 -d ./customdatafolder/ -o test_aug -n case control -e 100 -s 50 -r 256
 
 ```
 
